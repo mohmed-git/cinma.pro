@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #111;
+        color: #fff;
+    }
+    
+    /* تنسيق رأس الصفحة */
+    header {
+        background-color: #222;
+        padding: 1rem;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    
+    nav a:hover {
+        color: #e50914; /* لون أحمر مميز للتأثير عند التمرير */
+    }
+    
+    /* تنسيق البانر */
+    .banner {
+        background-image: url('https://via.placeholder.com/1200x300');
+        background-size: cover;
+        background-position: center;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .banner h1 {
+        color: #e50914;
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    
+    /* تنسيق بطاقات الأفلام */
+    .movie-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 2rem;
+        justify-content: center;
+    }
+    
+    .movie-card {
+        background-color: #222;
+        border: 1px solid #444;
+        width: 200px;
+        padding: 1rem;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+    
+    .movie-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .movie-card img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .movie-card h3 {
+        margin: 0.5rem 0;
+    }
+    
+    button {
+        background-color: #e50914;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    button:hover {
+        background-color: #f40612;
+    }
+    
+    /* تنسيق صفحة تفاصيل الفيلم */
+    .movie-details {
+        padding: 2rem;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .movie-details h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .movie-details img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .movie-details p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+    
+    /* تنسيق مشغل الفيديو */
+    .video-player {
+        margin-top: 2rem;
+    }
+    
+    video {
+        width: 100%;
+        max-width: 600px;
+        border: 1px solid #444;
+        border-radius: 5px;
+    }
+    
+    /* تنسيق الرابط المحيط بالزر */
+    a {
+        text-decoration: none;
+    }</style>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="c:\Users\SPRITE\Desktop\web\fj.html">Home</a></li>
+                <li><a href="c:\Users\SPRITE\Desktop\web\fj.html">Movies</a></li>
+                <li><a href="c:\Users\SPRITE\Desktop\web\fj.html#series">Series</a></li>
+              
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="movie-details">
+            <h1>The Room</h1>
+            <img src="https://media.fushaar.com/media/2020/04/bWyQwZziHh1DK9F59eqahZD8Upc-229x337.jpg" alt="Movie Poster">
+            <p><strong>Description:</strong> الغرفة The Room يشتري مات وكيت منزل مهجور، ولكنهما يكتشفان أن المنزل يحتوي على غرفة سحرية يمكنها تحقيق الأمنيات، ولكن سرعان ما يتحول الأمر لكيت كالكابوس.
+            
+            </p>
+            <div class="video-player">
+                <!-- يمكنك وضع رابط فيديو أو صورة مكان الفيديو -->
+                <iframe allowfullscreen="true" frameborder="0" src="https://www.fushaar.com/assets/themes/fushaarV5/player.php?id=30457" webkitallowfullscreen="" mozallowfullscreen="" width="640px" height="360px" data-rocket-lazyload="fitvidscompatible" class="lazyloaded" data-ll-status="loaded"></iframe>
+</div>
+        </section>
+    </main>
+   
+
+</body>
+</html>
